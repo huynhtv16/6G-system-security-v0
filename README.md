@@ -163,19 +163,6 @@ FJZW...,2024-01-15,192.168.1.1,10.0.0.1,TCP,100,...,DrDoS_DNS
 
 ---
 
-## 🚀 Key Achievements
-
-✅ **98.15% Accuracy** - Best ensemble performance
-✅ **11 Attack Types** - Comprehensive detection
-✅ **5,000 samples/sec** - Real-time capable
-✅ **GPU Optimized** - CUDA-accelerated
-✅ **Production Ready** - Error handling, logging
-✅ **Easy to Use** - Quick start in 5 minutes
-✅ **Well Documented** - Full guides included
-✅ **Open Source** - MIT License
-
----
-
 ## 💼 For Employers & Stakeholders
 
 **Why This Project Matters**:
