@@ -10,7 +10,7 @@
 
 ---
 
-## 📊 Key Results / Kết Quả Nổi Bật
+## 📊 Key Results 
 
 | Metric | Value | Note |
 |--------|-------|------|
@@ -22,29 +22,28 @@
 
 ---
 
-## 🎯 Key Features / Tính Năng Chính
+## 🎯 Key Features 
 
-### ✅ Detects 11 Attack Types / Phát Hiện 11 Loại Tấn Công
+### ✅ Detects 11 Attack Types 
 DrDoS_DNS, DrDoS_LDAP, DrDoS_MSSQL, DrDoS_NetBIOS, DrDoS_NTP, DrDoS_SNMP, DrDoS_SSDP, DrDoS_UDP, SYN Flood, TFTP, UDPLag
 
-### ✅ CNN+LSTM Ensemble Architecture / Kiến Trúc Ensemble
+### ✅ CNN+LSTM Ensemble Architecture 
 - **CNN**: Spatial pattern detection (97.23% accuracy) - Phát hiện pattern không gian
 - **LSTM**: Temporal sequence modeling (96.89% accuracy) - Mô hình hóa sequence theo thời gian
 - **Ensemble**: 0.6×CNN + 0.4×LSTM = **98.15% accuracy** ⭐
 
-### ✅ GPU Optimized / Tối Ưu GPU
-- CUDA 11.8+ acceleration - Tăng tốc CUDA
-- Automatic mixed precision training - Training độ chính xác hỗn hợp
-- Memory-efficient processing - Xử lý tiết kiệm bộ nhớ
+### ✅ GPU Optimized 
+- CUDA 11.8+ acceleration 
+- Automatic mixed precision training
+- Memory-efficient processing 
 
-### ✅ Production Ready / Sẵn Sàng Triển Khai
-- Real-time inference (5K samples/sec) - Suy diễn thời gian thực
-- Comprehensive error handling - Xử lý lỗi toàn diện
-- Detailed logging & monitoring - Ghi log chi tiết và giám sát
+### ✅ Production Ready 
+- Real-time inference (5K samples/sec)
+- Comprehensive error handling 
+- Detailed logging & monitoring 
 
 ---
-
-## 🏗️ Model Architecture / Kiến Trúc Mô Hình
+## 🏗️ Model Architecture
 
 ![Model Architecture](cnn_lstm_structure_dynamic.png)
 
@@ -52,27 +51,27 @@ DrDoS_DNS, DrDoS_LDAP, DrDoS_MSSQL, DrDoS_NetBIOS, DrDoS_NTP, DrDoS_SNMP, DrDoS_
 
 ![Confusion Matrix](images-lstm/ensemble_cm.png)
 
-**Ensemble Results / Kết Quả Ensemble**:
+**Ensemble Results**:
 - DrDoS_DNS: 98.2% precision
 - DrDoS_LDAP: 98.9% precision  
-- SYN Flood: 99.3% precision ⭐ (Highest / Cao nhất)
+- SYN Flood: 99.3% precision ⭐ (Highest)
 - All others: 97-99% precision
 
 ---
 
-## 🔧 Tech Stack / Ngôn Ngữ & Framework
+## 🔧 Tech Stack 
 
-| Component | Version | Purpose / Mục Đích |
+| Component | Version | Purpose |
 |-----------|---------|---------|
 | PyTorch | 2.6.0 | Deep Learning Framework |
-| Python | 3.8+ | Core Language / Ngôn ngữ chính |
-| Pandas | 2.2.3 | Data Processing / Xử lý dữ liệu |
-| Scikit-learn | 1.6.1 | ML Models / Mô hình ML |
-| Matplotlib | 3.10.1 | Visualization / Vẽ biểu đồ |
+| Python | 3.8+ | Core Language  |
+| Pandas | 2.2.3 | Data Processing  |
+| Scikit-learn | 1.6.1 | ML Models  |
+| Matplotlib | 3.10.1 | Visualization |
 
 ---
 
-## ⚡ Quick Start (5 minutes)
+## ⚡ Quick Start 
 
 ### 1. Setup
 ```bash
@@ -162,15 +161,6 @@ FJZW...,2024-01-15,192.168.1.1,10.0.0.1,TCP,100,...,DrDoS_DNS
 | Storage | 20GB | 50GB SSD |
 | GPU | N/A | RTX 3060 (12GB) |
 | Python | 3.8+ | 3.10+ |
-
----
-
-## 📖 Documentation
-
-- **[QUICKSTART.md](QUICKSTART.md)** - Step-by-step guide
-- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contributing guidelines
-- **[DOCUMENTATION.md](DOCUMENTATION.md)** - Full documentation
-- **[IMAGES_LIST.md](IMAGES_LIST.md)** - Asset information
 
 ---
 
