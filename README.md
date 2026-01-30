@@ -1,7 +1,6 @@
-# 🛡️ 6G System Security - Advanced DDoS Attack Detection
+# 🛡️ 6G System Security
 
-**Advanced Deep Learning System for DDoS Attack Detection & Classification (CNN+LSTM Ensemble)**
-*Hệ thống phát hiện và phân loại tấn công DDoS sử dụng Deep Learning*
+**Detecting and protecting against DDoS attacks on 6G networks (CNN+LSTM Ensemble)**
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Python](https://img.shields.io/badge/python-3.8+-blue)
