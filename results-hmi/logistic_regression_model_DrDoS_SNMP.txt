@@ -1,0 +1,8 @@
+=== logistic_regression_model (DrDoS_SNMP) ===
+Tổng mẫu: 5159870
+Số chunk: 52
+Accuracy TB: 0.64%
+F1 TB: 0.0121
+MRE TB: 0.7781
+MRA TB: 0.2219
+Tổng thời gian: 62.03s

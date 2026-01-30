@@ -1,0 +1,8 @@
+=== svm_model (DrDoS_SNMP) ===
+Tổng mẫu: 5159870
+Số chunk: 52
+Accuracy TB: 3.25%
+F1 TB: 0.0414
+MRE TB: 0.9396
+MRA TB: 0.0604
+Tổng thời gian: 8804.10s

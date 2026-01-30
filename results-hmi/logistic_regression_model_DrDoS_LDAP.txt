@@ -1,0 +1,8 @@
+=== logistic_regression_model (DrDoS_LDAP) ===
+Tổng mẫu: 2179930
+Số chunk: 22
+Accuracy TB: 99.55%
+F1 TB: 0.9977
+MRE TB: 0.0107
+MRA TB: 0.9893
+Tổng thời gian: 26.19s

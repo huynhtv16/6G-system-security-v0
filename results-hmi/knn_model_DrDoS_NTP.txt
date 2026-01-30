@@ -1,0 +1,8 @@
+=== knn_model (DrDoS_NTP) ===
+Tổng mẫu: 1202642
+Số chunk: 13
+Accuracy TB: 97.58%
+F1 TB: 0.9877
+MRE TB: 0.0225
+MRA TB: 0.9775
+Tổng thời gian: 173.60s

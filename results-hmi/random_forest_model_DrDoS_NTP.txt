@@ -1,0 +1,8 @@
+=== random_forest_model (DrDoS_NTP) ===
+Tổng mẫu: 1202642
+Số chunk: 13
+Accuracy TB: 98.89%
+F1 TB: 0.9943
+MRE TB: 0.0110
+MRA TB: 0.9890
+Tổng thời gian: 22.96s

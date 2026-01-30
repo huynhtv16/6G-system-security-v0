@@ -1,0 +1,8 @@
+=== knn_model (TFTP) ===
+Tổng mẫu: 20082580
+Số chunk: 202
+Accuracy TB: 98.88%
+F1 TB: 0.9929
+MRE TB: 0.0045
+MRA TB: 0.9955
+Tổng thời gian: 2664.48s

@@ -1,0 +1,8 @@
+=== svm_model (DrDoS_DNS) ===
+Tổng mẫu: 5071011
+Số chunk: 51
+Accuracy TB: 99.75%
+F1 TB: 0.9987
+MRE TB: 0.0000
+MRA TB: 1.0000
+Tổng thời gian: 8639.82s

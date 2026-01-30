@@ -1,0 +1,8 @@
+=== logistic_regression_model (TFTP) ===
+Tổng mẫu: 20082580
+Số chunk: 202
+Accuracy TB: 94.02%
+F1 TB: 0.9683
+MRE TB: 0.0452
+MRA TB: 0.9548
+Tổng thời gian: 239.24s

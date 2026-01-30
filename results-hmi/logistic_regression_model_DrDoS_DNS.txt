@@ -1,0 +1,8 @@
+=== logistic_regression_model (DrDoS_DNS) ===
+Tổng mẫu: 5071011
+Số chunk: 51
+Accuracy TB: 5.08%
+F1 TB: 0.0962
+MRE TB: 0.0000
+MRA TB: 1.0000
+Tổng thời gian: 59.96s

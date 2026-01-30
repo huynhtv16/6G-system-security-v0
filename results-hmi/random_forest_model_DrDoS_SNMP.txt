@@ -1,0 +1,8 @@
+=== random_forest_model (DrDoS_SNMP) ===
+Tổng mẫu: 5159870
+Số chunk: 52
+Accuracy TB: 85.62%
+F1 TB: 0.9076
+MRE TB: 0.1106
+MRA TB: 0.8894
+Tổng thời gian: 123.43s

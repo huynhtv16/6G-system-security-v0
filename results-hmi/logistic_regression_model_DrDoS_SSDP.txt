@@ -1,0 +1,8 @@
+=== logistic_regression_model (DrDoS_SSDP) ===
+Tổng mẫu: 2610611
+Số chunk: 27
+Accuracy TB: 48.20%
+F1 TB: 0.6496
+MRE TB: 0.1494
+MRA TB: 0.8506
+Tổng thời gian: 32.60s

@@ -1,0 +1,8 @@
+=== naive_bayes_model (DrDoS_MSSQL) ===
+Tổng mẫu: 4522492
+Số chunk: 46
+Accuracy TB: 0.00%
+F1 TB: 0.0000
+MRE TB: 1.0001
+MRA TB: -0.0001
+Tổng thời gian: 74.84s

@@ -1,0 +1,8 @@
+=== svm_model (DrDoS_NetBIOS) ===
+Tổng mẫu: 4093279
+Số chunk: 41
+Accuracy TB: 12.48%
+F1 TB: 0.2211
+MRE TB: 0.6952
+MRA TB: 0.3048
+Tổng thời gian: 6977.23s

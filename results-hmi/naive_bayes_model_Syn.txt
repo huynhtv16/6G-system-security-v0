@@ -1,0 +1,8 @@
+=== naive_bayes_model (Syn) ===
+Tổng mẫu: 1582289
+Số chunk: 16
+Accuracy TB: 0.00%
+F1 TB: 0.0000
+MRE TB: 0.3610
+MRA TB: 0.6390
+Tổng thời gian: 26.26s

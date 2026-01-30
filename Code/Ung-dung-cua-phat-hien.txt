@@ -1,0 +1,20 @@
+# Đề xuất xây dựng hệ thống cảnh báo phát hiện xâm nhập trên mạng 6G.
+
+Giả sử có trên mạng 6G - ô tô dân dụng; ô tô điều khiển từ xa có tích hợp 1 hệ thông AI có thể vừa trả lời vừa phát hiện các hành vi ddos .
+xây dựng hệ thông : nghiên cứu thực nghiệm
+
+1 Nền tảng:
+- Bên ngoài là 1 ứng dụng được tích hợp trên hệ thông ô tô
+- các chức năng được sử dụng : Chat - Phát hiện DDoS - * sử dụng API để mở các các ứng dụng khác
+- Giao diện đơn giản: speed to text 
+
+2 Chức năng AI:
+2.1 Chat: - là chức năng cơ bản cần có của công cụ AI
+2.2 Phát hiện DDoS: - chức năng được cải tiến qua các mô hình
+
+3 Demo: giả định trường hợp người dùng đang đi trên ô tô thì bị tấn công
+3.1 trường hợp 1: người dùng không sử dụng chat - check thông báo 
+3.2 trường hợp 2: người dùng đang sử dụng chat - check độ liền mạch và thông báo
+
+
+====================================

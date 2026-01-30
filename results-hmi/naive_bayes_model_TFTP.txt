@@ -1,0 +1,8 @@
+=== naive_bayes_model (TFTP) ===
+Tổng mẫu: 20082580
+Số chunk: 202
+Accuracy TB: 0.03%
+F1 TB: 0.0005
+MRE TB: 0.3863
+MRA TB: 0.6137
+Tổng thời gian: 335.18s

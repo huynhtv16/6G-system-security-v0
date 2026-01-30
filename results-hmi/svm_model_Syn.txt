@@ -1,0 +1,8 @@
+=== svm_model (Syn) ===
+Tổng mẫu: 1582289
+Số chunk: 16
+Accuracy TB: 49.72%
+F1 TB: 0.6595
+MRE TB: 0.0630
+MRA TB: 0.9370
+Tổng thời gian: 2679.67s

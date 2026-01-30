@@ -1,0 +1,8 @@
+=== naive_bayes_model (DrDoS_UDP) ===
+Tổng mẫu: 3134645
+Số chunk: 32
+Accuracy TB: 0.00%
+F1 TB: 0.0000
+MRE TB: 0.4286
+MRA TB: 0.5714
+Tổng thời gian: 53.70s

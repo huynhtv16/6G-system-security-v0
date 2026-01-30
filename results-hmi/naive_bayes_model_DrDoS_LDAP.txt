@@ -1,0 +1,8 @@
+=== naive_bayes_model (DrDoS_LDAP) ===
+Tổng mẫu: 2179930
+Số chunk: 22
+Accuracy TB: 0.00%
+F1 TB: 0.0000
+MRE TB: 3.0000
+MRA TB: -2.0000
+Tổng thời gian: 36.68s

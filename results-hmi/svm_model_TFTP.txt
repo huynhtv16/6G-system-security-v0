@@ -1,0 +1,8 @@
+=== svm_model (TFTP) ===
+Tổng mẫu: 20082580
+Số chunk: 202
+Accuracy TB: 92.70%
+F1 TB: 0.9584
+MRE TB: 0.0522
+MRA TB: 0.9478
+Tổng thời gian: 36919.53s

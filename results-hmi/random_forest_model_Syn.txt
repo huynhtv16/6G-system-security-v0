@@ -1,0 +1,8 @@
+=== random_forest_model (Syn) ===
+Tổng mẫu: 1582289
+Số chunk: 16
+Accuracy TB: 98.07%
+F1 TB: 0.9902
+MRE TB: 0.0025
+MRA TB: 0.9975
+Tổng thời gian: 28.81s

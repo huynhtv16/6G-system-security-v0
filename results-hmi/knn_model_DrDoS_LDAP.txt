@@ -1,0 +1,8 @@
+=== knn_model (DrDoS_LDAP) ===
+Tổng mẫu: 2179930
+Số chunk: 22
+Accuracy TB: 19.26%
+F1 TB: 0.3229
+MRE TB: 1.4843
+MRA TB: -0.4843
+Tổng thời gian: 305.56s

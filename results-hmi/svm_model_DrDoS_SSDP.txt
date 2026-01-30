@@ -1,0 +1,8 @@
+=== svm_model (DrDoS_SSDP) ===
+Tổng mẫu: 2610611
+Số chunk: 27
+Accuracy TB: 0.03%
+F1 TB: 0.0005
+MRE TB: 0.1847
+MRA TB: 0.8153
+Tổng thời gian: 4414.11s

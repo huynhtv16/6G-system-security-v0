@@ -1,0 +1,8 @@
+=== random_forest_model (DrDoS_UDP) ===
+Tổng mẫu: 3134645
+Số chunk: 32
+Accuracy TB: 62.18%
+F1 TB: 0.7663
+MRE TB: 0.0609
+MRA TB: 0.9391
+Tổng thời gian: 84.88s

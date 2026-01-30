@@ -1,0 +1,8 @@
+=== svm_model (DrDoS_NTP) ===
+Tổng mẫu: 1202642
+Số chunk: 13
+Accuracy TB: 15.37%
+F1 TB: 0.2651
+MRE TB: 0.8412
+MRA TB: 0.1588
+Tổng thời gian: 2075.87s

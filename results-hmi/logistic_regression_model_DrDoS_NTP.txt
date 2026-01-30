@@ -1,0 +1,8 @@
+=== logistic_regression_model (DrDoS_NTP) ===
+Tổng mẫu: 1202642
+Số chunk: 13
+Accuracy TB: 21.04%
+F1 TB: 0.3459
+MRE TB: 0.7642
+MRA TB: 0.2358
+Tổng thời gian: 15.77s

@@ -1,0 +1,8 @@
+=== svm_model (DrDoS_LDAP) ===
+Tổng mẫu: 2179930
+Số chunk: 22
+Accuracy TB: 0.10%
+F1 TB: 0.0020
+MRE TB: 1.0003
+MRA TB: -0.0003
+Tổng thời gian: 3716.00s

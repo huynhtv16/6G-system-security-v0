@@ -1,0 +1,8 @@
+=== random_forest_model (TFTP) ===
+Tổng mẫu: 20082580
+Số chunk: 202
+Accuracy TB: 99.15%
+F1 TB: 0.9939
+MRE TB: 0.0020
+MRA TB: 0.9980
+Tổng thời gian: 335.72s

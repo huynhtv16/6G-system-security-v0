@@ -1,0 +1,8 @@
+=== naive_bayes_model (DrDoS_NetBIOS) ===
+Tổng mẫu: 4093279
+Số chunk: 41
+Accuracy TB: 0.06%
+F1 TB: 0.0012
+MRE TB: 0.3332
+MRA TB: 0.6668
+Tổng thời gian: 72.74s

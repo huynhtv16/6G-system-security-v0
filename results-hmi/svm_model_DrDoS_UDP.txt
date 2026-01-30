@@ -1,0 +1,8 @@
+=== svm_model (DrDoS_UDP) ===
+Tổng mẫu: 3134645
+Số chunk: 32
+Accuracy TB: 98.46%
+F1 TB: 0.9922
+MRE TB: 0.0055
+MRA TB: 0.9945
+Tổng thời gian: 5534.98s

@@ -1,0 +1,8 @@
+=== naive_bayes_model (DrDoS_NTP) ===
+Tổng mẫu: 1202642
+Số chunk: 13
+Accuracy TB: 99.96%
+F1 TB: 0.9998
+MRE TB: 0.0003
+MRA TB: 0.9997
+Tổng thời gian: 21.03s

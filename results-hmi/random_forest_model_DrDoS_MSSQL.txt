@@ -1,0 +1,8 @@
+=== random_forest_model (DrDoS_MSSQL) ===
+Tổng mẫu: 4522492
+Số chunk: 46
+Accuracy TB: 98.72%
+F1 TB: 0.9932
+MRE TB: 0.0240
+MRA TB: 0.9760
+Tổng thời gian: 90.93s

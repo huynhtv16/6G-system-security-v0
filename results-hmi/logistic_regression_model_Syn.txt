@@ -1,0 +1,8 @@
+=== logistic_regression_model (Syn) ===
+Tổng mẫu: 1582289
+Số chunk: 16
+Accuracy TB: 6.93%
+F1 TB: 0.1124
+MRE TB: 0.1433
+MRA TB: 0.8567
+Tổng thời gian: 18.59s

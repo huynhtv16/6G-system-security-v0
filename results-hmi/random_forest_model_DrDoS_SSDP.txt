@@ -1,0 +1,8 @@
+=== random_forest_model (DrDoS_SSDP) ===
+Tổng mẫu: 2610611
+Số chunk: 27
+Accuracy TB: 39.40%
+F1 TB: 0.5644
+MRE TB: 0.1102
+MRA TB: 0.8898
+Tổng thời gian: 71.09s

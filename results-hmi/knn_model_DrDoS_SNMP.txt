@@ -1,0 +1,8 @@
+=== knn_model (DrDoS_SNMP) ===
+Tổng mẫu: 5159870
+Số chunk: 52
+Accuracy TB: 80.02%
+F1 TB: 0.8728
+MRE TB: 0.1630
+MRA TB: 0.8370
+Tổng thời gian: 680.07s

@@ -1,0 +1,8 @@
+=== random_forest_model (DrDoS_NetBIOS) ===
+Tổng mẫu: 4093279
+Số chunk: 41
+Accuracy TB: 97.85%
+F1 TB: 0.9881
+MRE TB: 0.0118
+MRA TB: 0.9882
+Tổng thời gian: 83.00s

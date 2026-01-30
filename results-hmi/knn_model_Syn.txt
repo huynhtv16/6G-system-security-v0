@@ -1,0 +1,8 @@
+=== knn_model (Syn) ===
+Tổng mẫu: 1582289
+Số chunk: 16
+Accuracy TB: 96.34%
+F1 TB: 0.9814
+MRE TB: 0.0050
+MRA TB: 0.9950
+Tổng thời gian: 210.32s

@@ -1,0 +1,101 @@
+import pandas as pd
+import numpy as np
+import ipaddress
+import joblib
+import os
+
+# Load models
+model_dir = 'models'
+output_dir = 'results'
+os.environ["LOKY_MAX_CPU_COUNT"] = "12"
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+models = {
+    'Naive_Bayes': joblib.load(os.path.join(model_dir, 'naive_bayes_model.pkl')),
+    'Random_Forest': joblib.load(os.path.join(model_dir, 'random_forest_model.pkl')),
+    'KNN': joblib.load(os.path.join(model_dir, 'knn_model.pkl')),
+    'SVM': joblib.load(os.path.join(model_dir, 'svm_model.pkl')),
+    'Logistic_Regression': joblib.load(os.path.join(model_dir, 'logistic_regression_model.pkl')),
+}
+
+# Load and preprocess test data
+test_file = r'dataset/CSVs/01-12/DrDoS_DNS.csv'
+data = pd.read_csv(test_file)
+data = data.sample(frac=1/300, random_state=42)
+
+data.columns = data.columns.str.strip()
+data.dropna(inplace=True)
+
+# Nếu nhãn là tên attack, giữ lại đúng mapping như khi train
+attack_mapping = {
+    'DrDoS_DNS': 0,
+    'DrDoS_LDAP': 1,
+    'DrDoS_MSSQL': 2,
+    'DrDoS_NetBIOS': 3,
+    'DrDoS_NTP': 4,
+    'DrDoS_SNMP': 5,
+    'DrDoS_SSDP': 6,
+    'DrDoS_UDP': 7,
+    'Syn': 8,
+    'TFTP': 9,
+    'UDPLag': 10
+}
+if data['Label'].dtype == object or data['Label'].iloc[0] in attack_mapping:
+    data = data[data['Label'].isin(attack_mapping.keys())]
+    data['Label'] = data['Label'].map(attack_mapping)
+
+# Chuyển đổi IP nếu có cột này
+if 'Source IP' in data.columns:
+    data['Source IP'] = data['Source IP'].apply(lambda x: int(ipaddress.IPv4Address(x)))
+if 'Destination IP' in data.columns:
+    data['Destination IP'] = data['Destination IP'].apply(lambda x: int(ipaddress.IPv4Address(x)))
+
+# One-hot encoding cho Protocol nếu có
+if 'Protocol' in data.columns:
+    data = pd.get_dummies(data, columns=['Protocol'], drop_first=True)
+
+# Loại bỏ các cột không dùng cho huấn luyện và các cột không phải số
+excluded_columns = [
+    'Flow ID', 'Timestamp', 'SimillarHTTP', 'Inbound', 'Label'
+]
+X = data.drop(columns=excluded_columns, errors='ignore')
+X = X.select_dtypes(include=[np.number])
+y = data['Label']
+
+# Đảm bảo đúng thứ tự và số lượng cột như lúc train
+feature_columns_path = os.path.join(model_dir, 'feature_columns.pkl')
+if not os.path.exists(feature_columns_path):
+    raise FileNotFoundError(
+        "Không tìm thấy file feature_columns.pkl. "
+        "Bạn cần train lại model và lưu danh sách cột features vào models/feature_columns.pkl."
+    )
+feature_columns = joblib.load(feature_columns_path)
+for col in feature_columns:
+    if col not in X.columns:
+        X[col] = 0
+X = X[feature_columns]
+
+# Thay thế các giá trị inf, -inf thành NaN, sau đó thay NaN bằng 0
+X = X.replace([np.inf, -np.inf], np.nan)
+X = X.fillna(0)
+
+# Chuẩn hóa dữ liệu với scaler đã train
+scaler_path = os.path.join(model_dir, 'scaler.pkl')
+if os.path.exists(scaler_path):
+    scaler = joblib.load(scaler_path)
+    X = scaler.transform(X)
+else:
+    from sklearn.preprocessing import StandardScaler
+    scaler = StandardScaler()
+    X = scaler.fit_transform(X)
+
+# Dự đoán và in kết quả cho từng model
+from sklearn.metrics import classification_report, accuracy_score
+for name, model in models.items():
+    with open(os.path.join(output_dir, f"{name}_results.txt"), 'w') as f:
+        y_pred = model.predict(X)
+        acc = accuracy_score(y, y_pred) * 100
+        res = f"=== {name} ===\n"
+        res += f"Accuracy: {acc:.2f}%\n"
+        res += f"{classification_report(y, y_pred, digits=2)}"
+        f.write(res)

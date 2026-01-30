@@ -1,0 +1,8 @@
+=== random_forest_model (DrDoS_LDAP) ===
+Tổng mẫu: 2179930
+Số chunk: 22
+Accuracy TB: 36.35%
+F1 TB: 0.5306
+MRE TB: 1.2464
+MRA TB: -0.2464
+Tổng thời gian: 56.37s

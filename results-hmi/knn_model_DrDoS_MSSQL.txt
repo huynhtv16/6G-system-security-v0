@@ -1,0 +1,8 @@
+=== knn_model (DrDoS_MSSQL) ===
+Tổng mẫu: 4522492
+Số chunk: 46
+Accuracy TB: 80.05%
+F1 TB: 0.8888
+MRE TB: 0.6034
+MRA TB: 0.3966
+Tổng thời gian: 633.99s

@@ -1,0 +1,8 @@
+=== logistic_regression_model (DrDoS_UDP) ===
+Tổng mẫu: 3134645
+Số chunk: 32
+Accuracy TB: 36.32%
+F1 TB: 0.5327
+MRE TB: 0.1199
+MRA TB: 0.8801
+Tổng thời gian: 38.61s

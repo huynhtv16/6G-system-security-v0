@@ -1,0 +1,8 @@
+=== logistic_regression_model (DrDoS_MSSQL) ===
+Tổng mẫu: 4522492
+Số chunk: 46
+Accuracy TB: 45.49%
+F1 TB: 0.6217
+MRE TB: 1.8224
+MRA TB: -0.8224
+Tổng thời gian: 53.24s

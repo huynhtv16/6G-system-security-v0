@@ -1,0 +1,8 @@
+=== knn_model (DrDoS_UDP) ===
+Tổng mẫu: 3134645
+Số chunk: 32
+Accuracy TB: 58.38%
+F1 TB: 0.7372
+MRE TB: 0.0761
+MRA TB: 0.9239
+Tổng thời gian: 415.53s

@@ -1,0 +1,8 @@
+=== naive_bayes_model (DrDoS_SSDP) ===
+Tổng mẫu: 2610611
+Số chunk: 27
+Accuracy TB: 0.00%
+F1 TB: 0.0000
+MRE TB: 0.3333
+MRA TB: 0.6667
+Tổng thời gian: 44.60s
